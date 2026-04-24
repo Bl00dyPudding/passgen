@@ -2,4 +2,4 @@ type DictionaryKey = 'lowercase' | 'uppercase' | 'number' | 'symbol'
 
 declare function passGen(passLength?: number, dictionaryKeys?: DictionaryKey[]): string | undefined
 
-export = passGen
+export default passGen

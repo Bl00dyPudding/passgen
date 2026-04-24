@@ -69,4 +69,4 @@ const passGen = (passLength = 12, dictionaryKeys) => {
 	return createPass(passLength).join('');
 };
 
-module.exports = passGen;
+export default passGen;

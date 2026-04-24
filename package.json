@@ -4,6 +4,7 @@
   "description": "Password generator",
   "author": "Vladislav Ershov",
   "license": "ISC",
+  "type": "module",
   "main": "index.js",
   "types": "index.d.ts"
 }
